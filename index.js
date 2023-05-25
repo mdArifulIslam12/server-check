@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 
 
-const uri = 'mongodb+srv:mdArif-project:ArYJB29SNsq5RaLv@cluster0.tnqyk.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://mdArif-project:ArYJB29SNsq5RaLv@cluster0.tnqyk.mongodb.net/?retryWrites=true&w=majority';
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
